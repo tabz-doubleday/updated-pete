@@ -1,0 +1,152 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #eae2b7;
+}
+
+header h1 {
+  font-family: "Playfair Display", Times, serif;
+  font-size: 24px;
+  
+}
+h1,
+ h2,
+ h3 {
+  text-align: center;
+ width: 100%;
+}
+#about h2 {
+  text-align: center; /* This centers the "About" heading */
+width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #003049;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f77f00;
+}
+
+/* About Section */
+#about {
+  display: flex;
+  flex-direction: row; /* Stack the sections vertically */
+  align-items: right;
+  padding: 20px 0;
+  text-align: left;
+}
+h2 {
+  text-align: center;
+  font-weight: normal;
+}
+#textImage {
+  display: flex; /* Align image and heading side by side */
+  align-items: right; /* Vertically center them */
+  justify-content: right; /* Center them horizontally */
+  margin-bottom: 20px; /* Add space between the image and the text below */
+}
+
+#textImage img {
+  width: 150px; /* Smaller size for the image */
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px; /* Space between the image and text */
+  border: 2px solid #003049;
+}
+.image-circle {
+
+}
+#peteHeading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center; /* Center the heading */
+}
+
+#about section {
+  text-align: center;
+  width: 100%;
+  max-width: 600px; /* Optional: Limit the width of text content */
+  margin-top: 20px;
+}
+
+#about section p {
+  font-size: 16px; /* Adjust text size */
+  line-height: 1.6; /* Improve readability */
+text-align: left;
+
+
+}
+
+/* Portfolio Section */
+#portfolio {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 0;
+  
+}
+
+#portfolio section {
+  flex: 1;
+  max-width: 30%;
+  text-align: center;
+}
+
+#portfolio img {
+  width: 100%;
+  max-width: 300px; /* Adjust image size */
+  height: auto;
+}
+
+#portfolio p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #003049;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
