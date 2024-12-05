@@ -70,8 +70,8 @@ h2 {
 }
 #textImage {
   display: flex; /* Align image and heading side by side */
-  align-items: right; /* Vertically center them */
-  justify-content: right; /* Center them horizontally */
+  align-items: center; /* Vertically center them */
+  justify-content: center; /* Center them horizontally */
   margin-bottom: 20px; /* Add space between the image and the text below */
 }
 
