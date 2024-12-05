@@ -40,13 +40,11 @@ h1,
 }
 nav {
   display: flex;
-  justify-content: space-around;
-  flex-grow: 1;
-  text-align: center;
+  gap: 20px;
 }
 
 nav a {
-  margin: 0 10px;
+  margin: 0;
   text-decoration: underline;
   color: #003049;
   font-weight: bold;
