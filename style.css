@@ -62,7 +62,7 @@ nav a:hover {
   flex-direction: column; /* Stack the sections vertically */
   align-items: right;
   padding: 20px 0;
-  text-align: left;
+ 
 }
 h2 {
   text-align: center;
