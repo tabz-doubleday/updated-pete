@@ -53,7 +53,7 @@ nav a:hover {
 /* About Section */
 #about {
   display: flex;
-  flex-direction: row; /* Stack the sections vertically */
+  flex-direction: column; /* Stack the sections vertically */
   align-items: right;
   padding: 20px 0;
   text-align: left;
