@@ -31,6 +31,8 @@ h1,
 #about h2 {
   text-align: center; /* This centers the "About" heading */
 width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 nav {
   display: flex;
