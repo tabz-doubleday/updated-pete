@@ -99,7 +99,7 @@ h2 {
 }
 
 #about section p {
-  font-size: 16px; /* Adjust text size */
+  font-size: 14px; /* Adjust text size */
   line-height: 1.6; /* Improve readability */
 text-align: left;
 
@@ -132,6 +132,7 @@ text-align: left;
   font-size: 14px;
   line-height: 1.5;
   color: #003049;
+  text-align: center;
 }
 
 /* Links */
