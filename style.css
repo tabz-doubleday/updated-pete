@@ -7,6 +7,7 @@ body {
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
   max-width: 600px;
+  margin: auto;
   
 }
 
@@ -34,7 +35,6 @@ h1,
  width: 100%;
 }
 #about h2 {
-  text-align: center; /* This centers the "About" heading */
   width: 100%;
   align-items: center;
   justify-content: center;
