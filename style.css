@@ -91,6 +91,17 @@ h2 {
   font-weight: bold;
   text-align: center; /* Center the heading */
 }
+ul.aligned-list {
+  list-style-position: inside; /* Ensures the bullet stays inside the list item */
+  padding-left: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+ul.aligned-list li {
+  display: inline-block; /* Makes the bullet and text appear inline */
+  margin-left: 0; /* Optional: controls spacing between bullet and text */
+}
+
 ul.aligned-list li {
   display: inline-block; 
   margin-left: 0; 
