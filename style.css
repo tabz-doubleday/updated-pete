@@ -91,7 +91,10 @@ h2 {
   font-weight: bold;
   text-align: center; /* Center the heading */
 }
-
+ul.aligned-list li {
+  display: inline-block; 
+  margin-left: 0; 
+}
 #about section {
   text-align: center;
   width: 100%;
