@@ -102,10 +102,6 @@ ul.aligned-list li {
   margin-left: 0; /* Optional: controls spacing between bullet and text */
 }
 
-ul.aligned-list li {
-  display: inline-block; 
-  margin-left: 0; 
-}
 #about section {
   text-align: center;
   width: 100%;
